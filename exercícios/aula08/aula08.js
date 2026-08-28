@@ -1,9 +1,11 @@
+const objs=document.getElementsByTagName("div")
+
 var num = [10,20,30,40,50]
 
-for(n of num){
-    console.log(n)
+for(n of objs){
+    console.log(n.innerHTML="curso")
 }
 
-for(n in num){
-    console.log(n)
+for(n in objs){
+    console.log(objs[n].innerHTML)
 }

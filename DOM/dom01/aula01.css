@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 3px;
+}
+
+main {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+#valor-contador {
+  font-size: 2rem;
+  font-weight: bold;
+}

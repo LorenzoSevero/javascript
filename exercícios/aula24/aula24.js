@@ -1,0 +1,6 @@
+const cursotodos=document.getElementsByClassName("curso")
+const cursoc1=document.getElementsByClassName("c1")
+const cursoc2=document.getElementsByClassName("c2")
+console.log(cursotodos)
+console.log(cursoc1)
+console.log(cursoc2)

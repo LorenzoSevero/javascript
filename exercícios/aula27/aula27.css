@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0; 
+    border: none;
+}
+
+html{
+    background-color: lightgray;
+}
+
+.caixa{
+    width: 200px;
+    height: 200px;
+    background-color: lightslategray;
+    margin: 20px auto;
+    padding:10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.curso.c1{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    margin-top: 2px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#btn_copiar{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: lightblue;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.curso.c1:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.selecionado{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+#btn_voltar{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: lightblue;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}

@@ -1,0 +1,21 @@
+.curso {
+    border: 1px gray solid;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+
+}
+.c1{
+    padding: 10px;
+    margin: 5px;
+    background-color: lightgrey;
+}
+.c2{
+    padding: 10px;
+    margin: 5px;
+    background-color: whitesmoke;
+}
+
+.curso:hover{
+    border: 2px red solid;
+}
